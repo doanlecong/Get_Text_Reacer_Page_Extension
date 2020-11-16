@@ -4,10 +4,10 @@
     "version" :"0.1",
     "content_scripts" : [
         {
-            "matchs": [
-                "<all_url>"
+            "matches": [
+                "<all_urls>"
             ],
-            "js" : ["content.js"]
+            "js" : ["jquery-3.5.1.slim.min.js","content.js"]
         }
     ] 
 }
